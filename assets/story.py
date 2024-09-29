@@ -1,4 +1,4 @@
-import content
+from assets import content
 
 """
 Ein Dictionary, das die einzelnen Abschnitte des Kapitels enthält.
