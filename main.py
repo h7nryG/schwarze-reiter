@@ -3,7 +3,6 @@ import tkinter as tk
 import story as story
 import content
 
-
 class StoryApp:
     def __init__(self):
         self.erster_prototyp_pfad: [] = content.string_proto_pfad
@@ -18,7 +17,7 @@ class StoryApp:
         self.label_widget.pack()
         self.option_1_button = tk.Button(root, text="Option1", command=lambda: self.select_option('1'))
         self.option_1_button.pack()
-
+        print('test')
         self.option_2_button = tk.Button(root, text="Option2", command=lambda: self.select_option('2'))
         self.option_2_button.pack()
         self.button = tk.Button(root, text="Display Section", command=self.display_next_section)
